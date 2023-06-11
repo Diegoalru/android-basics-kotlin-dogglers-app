@@ -29,6 +29,7 @@
         android:orientation="horizontal"
         android:scrollbars="horizontal"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        tools:listitem="@layout/vertical_horizontal_list_item"/>
 
 </FrameLayout>
