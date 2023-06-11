@@ -19,12 +19,12 @@ plugins {
 }
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.example.dogglers"
-        minSdkVersion 21
-        targetSdkVersion 32
+        minSdkVersion 17
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -61,5 +61,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
-    debugImplementation "androidx.fragment:fragment-testing:1.4.1"
+    debugImplementation 'androidx.fragment:fragment-testing:1.4.1'
 }
