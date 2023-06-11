@@ -27,6 +27,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-        app:spanCount="2"/>
+        android:importantForAccessibility="no"
+        tools:listitem="@layout/grid_list_item"
+        app:spanCount="2" />
 
 </FrameLayout>
